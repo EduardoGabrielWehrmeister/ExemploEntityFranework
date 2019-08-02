@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\65973\\Source\\Repos\\ExemploEntityFramework\\Model\\Model.csproj": {}
+    "C:\\Users\\65973\\Desktop\\ExemploEntityFranework\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\65973\\Source\\Repos\\ExemploEntityFramework\\Model\\Model.csproj": {
+    "C:\\Users\\65973\\Desktop\\ExemploEntityFranework\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\65973\\Source\\Repos\\ExemploEntityFramework\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\65973\\Desktop\\ExemploEntityFranework\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\65973\\Source\\Repos\\ExemploEntityFramework\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\65973\\Desktop\\ExemploEntityFranework\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\65973\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\65973\\Source\\Repos\\ExemploEntityFramework\\Model\\obj\\",
+        "outputPath": "C:\\Users\\65973\\Desktop\\ExemploEntityFranework\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

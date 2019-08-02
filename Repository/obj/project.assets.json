@@ -2992,11 +2992,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\65973\\Source\\Repos\\ExemploEntityFramework\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\65973\\Desktop\\ExemploEntityFranework\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\65973\\Source\\Repos\\ExemploEntityFramework\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Users\\65973\\Desktop\\ExemploEntityFranework\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\65973\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\65973\\Source\\Repos\\ExemploEntityFramework\\Repository\\obj\\",
+      "outputPath": "C:\\Users\\65973\\Desktop\\ExemploEntityFranework\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3015,8 +3015,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\65973\\Source\\Repos\\ExemploEntityFramework\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\65973\\Source\\Repos\\ExemploEntityFramework\\Model\\Model.csproj"
+            "C:\\Users\\65973\\Desktop\\ExemploEntityFranework\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\65973\\Desktop\\ExemploEntityFranework\\Model\\Model.csproj"
             }
           }
         }

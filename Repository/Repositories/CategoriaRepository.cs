@@ -18,8 +18,8 @@ namespace Repository.Repositories
 
         public bool Alterar(Categoria categoria)
         {
-            // SaveChanges retorna a quantidade de registros que foram afetados no banco de dados
             context.Categorias.Update(categoria);
+            // SaveChanges retorna a quantidade de registros que foram afetados no banco de dados
             return context.SaveChanges() == 1;
         }
 
