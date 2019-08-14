@@ -71,7 +71,7 @@ using View.Models;
                 WriteLiteral(" \r\n");
                 EndContext();
                 BeginContext(68, 62, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "258d2b2a48d8425daca2de7787596399", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "528b8626f58c433e918bcd6f5aa0443a", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -94,12 +94,12 @@ using View.Models;
             WriteLiteral("\r\n<h2>Cadastro</h2>\r\n\r\n");
             EndContext();
             BeginContext(158, 783, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a746076b6d3b4d95a1519f8378856b72", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70032d584a6145bdba7e02e226a143cb", async() => {
                 BeginContext(211, 207, true);
                 WriteLiteral("\r\n    <div class=\"form-group\">\r\n        <label for=\"computador-cadastro-categoria\">Categoria</label>\r\n        <select class=\"form-control\" id=\"computador-cadastro-categoria\" name=\"idCategoria\">\r\n            ");
                 EndContext();
                 BeginContext(418, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fbae5cdf11ba4d5093018567f722f04e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c3080498454c4033b8733428e4b237d9", async() => {
                     BeginContext(426, 23, true);
                     WriteLiteral("Selecione uma Categoria");
                     EndContext();

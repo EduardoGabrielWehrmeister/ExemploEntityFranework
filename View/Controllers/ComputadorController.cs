@@ -55,12 +55,25 @@ namespace View.Controllers
         [HttpGet, Route("obtertodos")]
         public ActionResult ObterTodos()
         {
-            return Json(reposirory.ObterTodos());
+            return Json(
+                new { data = reposirory.ObterTodos() });
         }
 
         [HttpGet, Route("cadastro")]
         public ActionResult Cadastro()
         {
+            return View();
+        }
+
+        [HttpGet, Route("editar")]
+        public ActionResult Editar(int id)
+        {
+            var computador = reposirory.ObterPeloId(id);
+
+            if (computador == null)
+                return RedirectToAction("Index");
+
+            ViewBag.Computador = computador;
             return View();
         }
     }

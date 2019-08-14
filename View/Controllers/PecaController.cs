@@ -51,7 +51,7 @@ namespace View.Controllers
         public JsonResult ObterTodos()
         {
             var pecas = repository.ObterTodos();
-            return Json(pecas);
+            return Json(new { data = pecas });
         }
 
         [HttpGet, Route("obterpeloid")]
