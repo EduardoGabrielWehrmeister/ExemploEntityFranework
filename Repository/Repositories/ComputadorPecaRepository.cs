@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Model;
 using Repository.Interfaces;
 using System;
@@ -31,7 +32,9 @@ namespace Repository.Repositories
 
         public List<ComputadorPeca> ObterTodosPeloIdComputador(int idComputador)
         {
-            return context.ComputadoresPecas.Where(x => x.IdComputador == idComputador).ToList();
+            return context.ComputadoresPecas
+                .Include(x => x.Peca)
+                .Where(x => x.IdComputador == idComputador).ToList();
         }
 
         public int Relacionar(ComputadorPeca computadorPeca)

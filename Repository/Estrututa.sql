@@ -12,6 +12,7 @@ CREATE TABLE pecas(
 	preco DECIMAL(8,2),
 	registro_ativo BIT
 );
+SELECT * FROM pecas
 
 CREATE TABLE clientes(
 	id INT PRIMARY KEY IDENTITY(1,1),

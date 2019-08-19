@@ -63,5 +63,26 @@ namespace View.Controllers
 
             return Json(peca);
         }
+
+        [HttpGet, Route("obtertodosselect2")]
+        public JsonResult ObterTodosSelect2(string term = "")
+        {
+            term = term == null ? "" : term;
+
+            var registros = repository.ObterTodos();
+
+            registros = registros.Where(x => x.Nome.Contains(term)).ToList();
+            var pecasSelect2 = new List<object>();
+
+            foreach (var peca in registros)
+            {
+                pecasSelect2.Add(new
+                {
+                    id = peca.Id,
+                    text = peca.Nome
+                });
+            }
+            return Json(new { results = pecasSelect2 });
+        }
     }
 }
